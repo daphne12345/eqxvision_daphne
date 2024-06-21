@@ -12,8 +12,3 @@ from .classification.efficientnet import (
     efficientnet_v2_m,
     efficientnet_v2_s,
 )
-
-
-from .segmentation.deeplabv3 import DeepLabV3, deeplabv3
-from .segmentation.fcn import FCN, fcn
-from .segmentation.lraspp import LRASPP, lraspp_mobilenet_v3_large
